@@ -24,15 +24,15 @@ public class Main {
 		switch(choice) {
 		
 		case 1: 
-			System.out.print("Enter Company Name");
+			System.out.print("Enter Company Name: ");
 			String company = in.nextLine();
-			System.out.print("Enter position");
+			System.out.print("Enter position: ");
 			String position = in.nextLine();
 			System.out.print("Enter location: ");
 			String location = in.nextLine();
 			System.out.print("Enter application date(YYYY-MM-DD) : ");
 			LocalDate date = LocalDate.parse(in.nextLine());
-			System.out.print("Enter status");
+			System.out.print("Enter status: ");
 			String status = in.nextLine();
 			System.out.print("Enter salary: ");
 			double salary = in.nextDouble();
